@@ -1,7 +1,7 @@
 /* Chiedere all’utente di inserire una parola. Creare una funzione 
 per capire se la parola inserita è palindroma */
 
-function parola_palidroma (parola){
+function parola_palindroma (parola){
 
     let parola_al_contrario = '';
     let parola_upperCase = parola.toUpperCase()
@@ -22,8 +22,8 @@ function parola_palidroma (parola){
 }
 
 
-let parola_inserita = prompt('inserisci una parola e vediamo se è un palidroma').toLocaleUpperCase(); 
+let parola_inserita = prompt('inserisci una parola e vediamo se è un palindroma').toLocaleUpperCase(); 
 
 
 //stampo a console il risultato della funzione.
-console.log(parola_palidroma(parola_inserita))
+console.log(parola_palindroma(parola_inserita))
