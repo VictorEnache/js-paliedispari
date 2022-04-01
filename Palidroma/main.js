@@ -26,4 +26,9 @@ let parola_inserita = prompt('inserisci una parola e vediamo se è un palindroma
 
 
 //stampo a console il risultato della funzione.
-console.log(parola_palindroma(parola_inserita))
+if  (parola_palindroma(parola_inserita)) {
+    console.log('è un palindroma')
+}
+else{
+    console.log('non è un palindroma')
+}
